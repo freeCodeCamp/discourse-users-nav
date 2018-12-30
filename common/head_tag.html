@@ -12,7 +12,7 @@
     NavItem.reopenClass({
         buildList : function(category, args) {
           var list = this._super(category, args);
-          list.push(ExternalNavItem.create({href: '/users', name: 'users'}));
+          list.push(ExternalNavItem.create({href: '/forum/users', name: 'users'}));
           return list;
         }
     });
